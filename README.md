@@ -1,10 +1,11 @@
 # Emacs Yale Cantonese Input
 
 Emacs Quail Cantonese input for Emacs using the Yale romanisation
-system.
+system.  The original character list was generated using the word list
+from CC-Canto (cccanto.org).
 
 Yale is a common romanisation system for Cantonese which is intuitive
-to English speakers and is used in many textbooks.
+for English speakers and is widely used in textbooks.
 
 
 ## Installation
@@ -16,8 +17,8 @@ to English speakers and is used in many textbooks.
   (load "yale.el")
 ```
 
-## Use
+## Usage
 
-In Emacs enter `C-x RET C-\ chinese-yale RET` and type.  Use `C-\` to
-toggle input method on and off.
+In Emacs enter `C-x RET C-\ chinese-yale RET` to use the Yale input
+method.  To toggle the current input method on or off use `C-\`.
 
